@@ -1,4 +1,4 @@
-package org.nkcoder.classandobjects
+package learn.nkcoder.classandobjects
 
 class ClassAndFieldsDemo:
   // private fields can only be accessed in the same class (and companion object)

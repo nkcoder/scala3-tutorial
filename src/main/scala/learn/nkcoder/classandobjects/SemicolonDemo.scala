@@ -1,4 +1,4 @@
-package org.nkcoder.classandobjects
+package learn.nkcoder.classandobjects
 
 object SemicolonDemo extends App:
   /* semicolon inference */

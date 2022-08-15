@@ -1,4 +1,4 @@
-package org.nkcoder.basictypes
+package learn.nkcoder.basictypes
 
 object BasicTypesDemo extends App :
 
