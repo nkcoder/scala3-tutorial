@@ -47,5 +47,7 @@ object NewControlSyntax extends App :
   println(s"forDoFunc(List[Int], List[Int])=${forDoFunc(List(1, 2, 3), List(4, 5, 6))}")
 
 
+  // -rewrite -new-syntax    rewrite from old to new syntax
+  // -rewrite -old-syntax   rewrite from new to old syntax
 
 
