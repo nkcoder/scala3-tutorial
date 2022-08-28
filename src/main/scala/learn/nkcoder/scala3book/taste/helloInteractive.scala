@@ -3,7 +3,7 @@ package learn.nkcoder.scala3book.taste
 import scala.io.StdIn.readLine
 
 @main
-def helloInteractive() =
+def helloInteractive(): Unit =
   println("please enter your name: ")
   val name = readLine()
 

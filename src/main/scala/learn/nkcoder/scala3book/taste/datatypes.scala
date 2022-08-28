@@ -1,6 +1,6 @@
 package learn.nkcoder.scala3book.taste
 
-@main def dataTypes =
+@main def dataTypes(): Unit =
   val x = 1
   var y = 2
   y = 20

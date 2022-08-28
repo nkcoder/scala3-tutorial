@@ -1,6 +1,6 @@
 package learn.nkcoder.scala3book.taste
 
-@main def hello() = println("hello")
+@main def hello(): Unit = println("hello")
 
 /* scala 2
 object hello {
