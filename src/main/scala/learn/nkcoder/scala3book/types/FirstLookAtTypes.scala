@@ -67,6 +67,7 @@ package learn.nkcoder.scala3book.types
 
   
   // Nothing: subtype of all types, also called the bottom type
-  // Null: subtype of all reference types, should only be used with other JVM languages
+  // Null: subtype of all reference types, should only be used for interoperability with other JVM languages
+  // null should almost never be used in Scala code.
 
 
