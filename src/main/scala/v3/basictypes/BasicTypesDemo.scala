@@ -1,10 +1,10 @@
 package learn.nkcoder.basictypes
 
-object BasicTypesDemo extends App :
+object BasicTypesDemo extends App:
 
   // Int: 0x or 0X starts a hexadecimal number
-  val hex = 0x6
-  val hex2 = 0X00FF
+  val hex  = 0x6
+  val hex2 = 0x00ff
   println(s"hex = $hex, hex2 = $hex2")
 
   // you can use the underscore to improve the readability of large values
@@ -26,8 +26,8 @@ object BasicTypesDemo extends App :
   println(s"double1 = $double1, double2 = $double2, double3 = $double3")
 
   // Float: ends in an F or f
-  val float1 = 2.456F
-  val float2 = 1_000_000F
+  val float1 = 2.456f
+  val float2 = 1_000_000f
   println(s"float1 = $float1, float2 = $float2")
 
   // Char: any Unicode between single quotes
