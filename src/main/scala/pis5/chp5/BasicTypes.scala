@@ -1,6 +1,6 @@
-package learn.nkcoder.basictypes
+package pis5.chp5
 
-object BasicTypesDemo extends App:
+object BasicTypes extends App:
 
   // Int: 0x or 0X starts a hexadecimal number
   val hex  = 0x6
