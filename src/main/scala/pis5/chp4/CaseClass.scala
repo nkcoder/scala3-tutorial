@@ -32,5 +32,5 @@ object CaseClass extends App:
   val Person(p2Name, p2Age) = Person.unapply(p2)
   println(s"p2.name=$p2Name, p2.age=$p2Age")
 
-  // 7. the compile will not generate any method that you implement yourself. It will use your implementation
+  // 7. the compile will not generate any method that you implement yourself. It will use your implementation.
 
