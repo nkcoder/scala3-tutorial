@@ -1,4 +1,4 @@
-package pis5.chp4
+package proginscala.chapter4
 
 import scala.collection.mutable
 import scala.util.Random

@@ -1,4 +1,4 @@
-package pis5.chp5
+package proginscala.chapter5
 
 object Arithmetic extends App:
 	// when both the left and right operands are integral types(Int, Long, Byte, Short, or Char), the / operator will tell you

@@ -1,4 +1,4 @@
-package pis5.chp4
+package proginscala.chapter4
 
 class FieldsAndMethods:
   // private fields can only be accessed in the same class (and its companion object)

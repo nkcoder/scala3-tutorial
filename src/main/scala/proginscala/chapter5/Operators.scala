@@ -1,4 +1,4 @@
-package pis5.chp5
+package proginscala.chapter5
 
 /**
   * Operators are just a nice syntax for ordinary methods calls

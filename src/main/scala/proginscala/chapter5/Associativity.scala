@@ -1,4 +1,4 @@
-package pis5.chp5
+package proginscala.chapter5
 
 object Associativity extends App:
 	// Given that Scala doesn't have operators, Scala decides precedence based on the first character

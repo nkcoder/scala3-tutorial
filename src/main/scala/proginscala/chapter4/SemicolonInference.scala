@@ -1,4 +1,4 @@
-package pis5.chp4
+package proginscala.chapter4
 
 /**
   * **The rules of semicolon inference**

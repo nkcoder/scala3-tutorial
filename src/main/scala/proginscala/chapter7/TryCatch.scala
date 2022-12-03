@@ -1,4 +1,4 @@
-package pis5.chp7
+package proginscala.chapter7
 
 import java.io.FileReader
 import java.io.FileNotFoundException

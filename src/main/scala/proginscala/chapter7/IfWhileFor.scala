@@ -1,4 +1,4 @@
-package pis5.chp7
+package proginscala.chapter7
 
 object IfWhileFor extends App:
 
