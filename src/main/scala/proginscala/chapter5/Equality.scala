@@ -1,4 +1,4 @@
-package pis5.chp5
+package proginscala.chapter5
 
 object Equality extends App:
 	// you can use == and != to compare two objects for equality

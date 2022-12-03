@@ -1,4 +1,4 @@
-package pis5.chp5
+package proginscala.chapter5
 
 object Logical extends App:
 	// the && and || operations will short-circuit as in Java

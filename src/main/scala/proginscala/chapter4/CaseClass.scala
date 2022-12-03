@@ -1,4 +1,4 @@
-package pis5.chp4
+package proginscala.chapter4
 
 object CaseClass extends App:
 

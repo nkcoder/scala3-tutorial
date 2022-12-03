@@ -1,4 +1,4 @@
-package pis5.chp7
+package proginscala.chapter7
 
 object RefactorImperative extends App:
   /** There is no break or continue in Scala because they do not mesh with function literals. The simplest approach is

@@ -1,4 +1,4 @@
-package pis5.chp6
+package proginscala.chapter6
 
 // if a class doesn't have a body, you don't need to specify empty curly braces and cannot terminate with a colon.
 

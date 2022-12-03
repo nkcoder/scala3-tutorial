@@ -1,4 +1,4 @@
-package pis5.chp7
+package proginscala.chapter7
 
 object ScopeAndMatch extends App:
   /** For now, just consider using match to select among a number of alternatives. The default case is specified with
