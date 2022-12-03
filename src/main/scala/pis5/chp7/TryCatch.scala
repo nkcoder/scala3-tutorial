@@ -40,8 +40,9 @@ object TryCatch extends App:
   // It's usually best to avoid returning values from 'finally' clauses.
   // The best way to think of 'finally' clauses is as a way to ensure some side effect happens, such as
   // 	closing an open file.
-  def dummy(x: Int): Int = try 1 / x
-  finally 1.0
+  def dummy(x: Int): Int = 
+    try 1 / x
+    finally println("unexpected error.")
 
 
 
