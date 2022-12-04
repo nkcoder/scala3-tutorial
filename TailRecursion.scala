@@ -22,9 +22,9 @@ object TailRecursion extends App:
     while !isGoodEnough(guess) do guess = improve(guess)
     guess
 
-	// It's not tail-recursive because the function doesn't call itself directly
-	val funValue = nestedFun
-	def nestedFun(x: Int): Unit = 
-		if x != 0 then
-			println(x)
-			funValue(x - 1)
+  // It's not tail-recursive because the function doesn't call itself directly
+  val funValue = nestedFun
+  def nestedFun(x: Int): Unit = 
+    if x != 0 then
+      println(x)
+      funValue(x - 1)
