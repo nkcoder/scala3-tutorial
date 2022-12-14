@@ -54,6 +54,16 @@ abstract class Element:
   */
 class VectorElement(val contents: Vector[String]) extends Element
 
+/**
+  * To invoke a superclass constructor, you simply place the argument or arguments you want to pass in parentheses following 
+  * the name of the superclass.
+  * 
+  * Scala requires the `override` modifier for all members that override a concrete member in a parent class.
+  */
+class LineElement(s: String) extends VectorElement(Vector(s)):
+  override def height: Int = 1
+  override def width: Int = s.length
+
 object Inheritance extends App:
   // subtyping means that a value of the subclass can be used wherever a value of the superclass is required.
   val e: Element = VectorElement(Vector("hello", "world"))
