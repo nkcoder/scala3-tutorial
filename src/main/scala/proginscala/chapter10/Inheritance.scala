@@ -22,7 +22,22 @@ abstract class Element:
     val contents = for (line1, line2) <- this.contents.zip(that.contents) yield line1 + line2
     elem(contents)
 
+  def widen(w: Int): Element = 
+    if w < width then this
+    else
+      val left = elem(' ', (w - width) / 2, height)
+      val right = elem(' ', w - width - left.width, height)
+      left beside this beside right
+
+  def heighten(h: Int): Element = 
+    if h <= height then this
+    else 
+      val top = elem(' ', width, (h - height) / 2)
+      val bot = elem(' ', width, h - height - top.height)
+      top above this above bot
+
   override def toString: String = contents.mkString("\n")
+end Element
 
 /** A factory object contains methods that construct other objects. Clients would then use these factory methods to
   * construct objects, rather than constructing the objects directly via their constructors.
@@ -124,5 +139,5 @@ class Tiger(
   */
 object Inheritance extends App:
   // subtyping means that a value of the subclass can be used wherever a value of the superclass is required.
-  val e: Element = VectorElement(Vector("hello", "world"))
+  val e: Element = Element.elem(Vector("hello", "world"))
   println(s"e, height: ${e.height}, width = ${e.width}")
