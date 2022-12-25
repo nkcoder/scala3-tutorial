@@ -29,7 +29,11 @@ object Ord:
     def compare(x: String, y: String) = x.compare(y)
 
 object Sort:
+  /** Actually the context parameter name is NOT required: you can just use the keyword `using` followed by the
+    * parameter type, for example: `using Ord[T]`. This is called anonymous parameter.
+    */
   def isort[T](xs: List[T])(using ord: Ord[T]): List[T] =
+    // def isort[T](xs: List[T])(using Ord[T]): List[T] =
     if xs.isEmpty then Nil
     else insert(xs.head, isort(xs.tail))
 
